@@ -1,0 +1,14 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int pares = 0, suma;
+    for (int i = 2; i <=100; i+=2){
+        suma += i;
+        pares++;
+    }
+    cout << suma << endl;
+    cout << pares << endl;
+}
