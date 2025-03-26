@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+ int n, suma = 0;
+ cerr<< "Numero : ";
+ cin>> n;
+ 
+ if (n < 1){
+     cout << "no sea burro";
+ } else {
+     
+ }
+ 
+ for (int i = 1; i <= n; i++){
+     suma += i;
+ }
+ cout << "la suma es: " << suma << endl;
+}
