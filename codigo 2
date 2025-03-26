@@ -11,7 +11,8 @@ int main() {
     if (numero <= 0) {
         cout << "no sea burro" << endl;
         return 1; 
-    }
+    } else {
+{
 
     cerr << "Ingresa el primer numero: ";
     cin >> mayor;
@@ -22,7 +23,8 @@ int main() {
         
         if (num > mayor) {
             mayor = num; 
-        }
+        } else {
+}
     }
 
     cout << "El número mayor es: " << mayor << endl;
