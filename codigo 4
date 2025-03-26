@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+ int main() {
+  int positivo = 0, negativo = 0;
+  int cero = 0, cantidad, numero;
+  cerr << "cuantos numeros quieres ingresar: ";
+  cin >> cantidad;
+  if (cantidad <= 0){
+      cout << "no sea burro";
+  } else {
+      
+  }
+  
+  for (int i = 0;i < cantidad; i++){
+      cerr << "numero: ";
+      cin >> numero;
+      if (numero > 0){
+          positivo++;
+      } else if (numero < 0){
+          negativo++;
+      } else {
+          cero++;
+      }
+  }
+ cout << positivo << endl;
+ cout << negativo << endl;
+ cout << cero << endl;
+ return 0;
+}
