@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int numero, num, mayor;
+
+    cerr << "cuanto nuemros son ";
+    cin >> numero;
+
+    if (numero <= 0) {
+        cout << "no sea burro" << endl;
+        return 1; 
+    }
+
+    cerr << "Ingresa el primer numero: ";
+    cin >> mayor;
+
+    for (int i = 2; i <= numero; i++) {
+        cout << "Ingresa el número " << i << ": ";
+        cin >> num;
+        
+        if (num > mayor) {
+            mayor = num; 
+        }
+    }
+
+    cout << "El número mayor es: " << mayor << endl;
+
+    return 0;
+}
