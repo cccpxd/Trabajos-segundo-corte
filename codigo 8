@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b;
+
+    // Solicitar los números usando cerr
+    cerr << "Ingresa el valor de a (menor): ";
+    cin >> a;
+    cerr << "Ingresa el valor de b (mayor): ";
+    cin >> b;
+
+    if (a >= b) {
+        cout << " a debe ser menor que b." << endl;
+        return 1;
+    } else {
+        
+    }
+    cout << "Números primos en el rango [" << a << ", " << b << "]:" << endl;
+
+    for (int i = a; i <= b; i++) {
+        if (i >= 2) {
+        int divisores = 0; 
+
+        for (int j = 1; j * j <= i; j++) {
+            if (i % j == 0) {
+                divisores++;
+                if (j != i / j) divisores++; 
+            }
+        }
+
+        
+        if (divisores == 2) {
+            cout << i << " "; 
+        } else {
+            
+        }
+       }
+    }
+
+    cout << endl;
+    return 0;
+}
