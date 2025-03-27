@@ -7,6 +7,13 @@ int main() {
    int n, x=0, y=1, sig;
    cerr << "ingresa un numero: ";
    cin>> n;
+   
+   if (n <= 0){
+       cout << "pendejin";
+       return 1;
+   } else{
+       
+   }
    cout << "los numeros de fibonacci son: ";
    for (int i = 0;i <= n;i++ ){
        cout << x << endl;
@@ -14,6 +21,6 @@ int main() {
        x = y;
        y = sig;
    }
-   
+   return 0;
    
 }
