@@ -1,3 +1,18 @@
+
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+ n, suma = 0 : entero
+preguntar (numero)
+si (numero < 1) 
+mostrar (error)
+para ( i = 1; i <= n; i++){
+     suma += i;
+
+mostrar(suma)
+fin
+*/
 #include <iostream>
 
 using namespace std;
