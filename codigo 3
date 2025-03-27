@@ -1,7 +1,23 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+suma, promedio, nota : real
+preguntar (cantidad de numeros)
+si (cantidad <= 0)
+mostrar(error)
+para  ( i = 0;i < cantidad; i++){
+      mostrar( i + 1)
+      preguntar (nota)
+      suma += nota
+promedio = suma / cantidad;
+  mostrar (promedio)
+
+fin
+*/
+
 #include <iostream>
-
 using namespace std;
-
  int main() {
   int cantidad;
   float suma, promedio, nota;
