@@ -1,3 +1,29 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+a, b, divisores : entero
+preguntar (numero a)
+preguntar (numero b)
+si (a >= b)
+mostrar(a debe ser menor que b)
+
+mostrar( Números primos en el rango )
+para  ( i = a; i <= b; i++)
+si (i>=2)
+divisores = 0
+para ( j = 1; j * j <= i; j++) 
+si (i % j == 0)
+divisores++
+si (j != i / j) divisores ++
+
+
+si (divisores ==2)
+mostrar (i)
+fin
+*/
+
+
 #include <iostream>
 
 using namespace std;
