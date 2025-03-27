@@ -1,4 +1,27 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+menor = 0, mayor = 0 : entero
+cantidad, numero, suma = 0: entero
+preguntar(cantidad de numeros)
+si (cantidad <= 0)
+mostrar(error)
+para (int i = 0;i < cantidad; i++)
+preguntar (numero)
+suma += numero
+si (numero < 18) 
+menor++
+sino
+mayor++
+mostrar (mayor)
+mostrar (menor)
+mostrar (suma)
 
+
+
+fin
+*/
 #include <iostream>
 
 using namespace std;
