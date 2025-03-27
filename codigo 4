@@ -1,3 +1,27 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+ positivo = 0, negativo = 0 : entero
+ cero = 0, cantidad, numero: entero
+preguntar (cantidad de numeros)
+si (cantidad <= 0)
+mostrar (error)
+para (int i = 0;i < cantidad; i++)
+preguntar (numero)
+si (numero > 0)
+positivo ++
+sino (numero < 0)
+negativo ++
+sino 
+ceros
+
+mostrar (positivo)
+mostrar (negativo)
+mostrar (ceros)
+fin
+*/
+
 #include <iostream>
 
 using namespace std;
