@@ -1,0 +1,33 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+nummero : entero
+preguntar (numero)
+para ( i = n;i > 0; i--)
+si i > 0
+mostrar (salto de linea)
+para (j = 0 ;j < i; j++)
+mostrar (*)
+  para 
+fin
+*/
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  
+  int n; 
+  cerr <<  "numero bro: ";
+  cin>> n;
+  
+  for (int i = n;i > 0; i--){
+      if (i > 0){
+          cout << endl;
+      } 
+       for (int j = 0 ;j < i; j++){
+           cout << "*";
+       }
+  } return 0;
+}
