@@ -8,7 +8,7 @@ si (n <= 0)
 mostrar(error)
 
 mostrar (numero de fibonacci)
-para (int i = 0;i <= n;i++ )
+para (0 hasta n salto 1)
 mostrar (x)
 sig = x + y
 x = y
