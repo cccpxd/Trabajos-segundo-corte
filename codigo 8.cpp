@@ -20,7 +20,7 @@ using namespace std;
   cin >> num;
   for (int i = 1; i <= 10; i++){
       m = num * i;
-      cout << "3 x "<< i << "=" << m << endl;
+      cout << num << " x "<< i << "=" << m << endl;
   }
   return 0;
 }
