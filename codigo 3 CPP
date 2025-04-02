@@ -1,9 +1,10 @@
+// Calcula la suma de los números pares del 1 al 100 y cuenta cuántos números pares hay en ese rango
 //cristian Camilo Colorado Posada
 //cccoloradop@correo.usbcali.edu.co
 /* Pseudocodigo
 inicio
 pares = 0, suma : entero
-para ( i = 2; i <=100; i+=2)
+para (2 hasta 100 salto 2)
 suma +=i
 pares++
 mostrar (suma)
