@@ -20,7 +20,7 @@ int n, c =0;
 cerr << "ingrese el numero en Z: ";
 cin >> n;
 if (n<=0){
-    cout << "carepollita bruta";
+    cout << "respeta bro";
     
 }else {
 }
