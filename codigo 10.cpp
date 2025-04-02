@@ -31,9 +31,9 @@ using namespace std;
 int main() {
     int a, b, divisores;
 
-    cerr << "Ingresa el valor de a (menor): ";
+    cerr << "Ingresa el valor de a : ";
     cin >> a;
-    cerr << "Ingresa el valor de b (mayor): ";
+    cerr << "Ingresa el valor de b : ";
     cin >> b;
 
     if (a >= b) {
