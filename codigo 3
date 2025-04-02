@@ -6,7 +6,7 @@ suma, promedio, nota : real
 preguntar (cantidad de numeros)
 si (cantidad <= 0)
 mostrar(error)
-para  ( i = 0;i < cantidad; i++){
+para i (0 hasta cantidad salto 1){
       mostrar( i + 1)
       preguntar (nota)
       suma += nota
