@@ -7,7 +7,7 @@ cantidad, numero, suma = 0: entero
 preguntar(cantidad de numeros)
 si (cantidad <= 0)
 mostrar(error)
-para (int i = 0;i < cantidad; i++)
+para i (0 hasta cantidad salto 1)
 preguntar (numero)
 suma += numero
 si (numero < 18) 
