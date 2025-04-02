@@ -6,7 +6,7 @@ n, factorial = 1 : enteros
 preguntar (numero)
 si n (<= 0)
 mostrar (error)
-para (i = 1; i <=n; i++){
+para (1 hasta numero salto 1){
      factorial *= i;
 
 mostrar (resultado)
