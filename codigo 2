@@ -7,7 +7,7 @@ preguntar(cantidad de numeros)
 si (numero <= 0) 
 mostrar(error)
 preguntar(primer numero)
-para (int i = 2; i <= numero; i++)
+para i  (2 hasta numero salto 1)
 preguntar (numero)
 si (num > mayor) 
 mayor = num;
