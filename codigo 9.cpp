@@ -7,7 +7,7 @@ inicio
 preguntar (numero)
 si (numero < 1) 
 mostrar (error)
-para ( i = 1; i <= n; i++){
+para (1 hasta numero salto 1){
      suma += i;
 
 mostrar(suma)
