@@ -1,0 +1,124 @@
+//cristian Camilo Colorado Posada
+//cccoloradop@correo.usbcali.edu.co
+/* Pseudocodigo
+inicio
+
+fin
+
+#include <iostream>
+using namespace std;
+void patino(int x){
+    if (x % 2 == 0){
+        cout << "es par";
+    } else{
+        cout << "es impar";
+    }
+
+}
+int main() {
+int x;
+cout << "numero";
+cin>>x;
+patino(x);
+}
+*/
+/* 
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+   int apt[2][3];
+   int xd[2][3];
+   int resultado[2][3];
+   
+   cout << "Ingrese los elementos de la matriz apt:" << endl;
+    for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++) {
+            cout << "Elemento [" << f << "][" << c << "]: ";
+            cin >> apt[f][c];
+        }
+    }
+     for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++){
+            cout << apt[f][c]<<"\t";
+        } 
+        cout << endl;
+     }
+    
+    cout << "Ingrese los elementos de la matriz xd:" << endl;
+    for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++) {
+            cout << "Elemento [" << f << "][" << c << "]: ";
+            cin >> xd[f][c];
+        }
+    }
+    
+    for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++){
+            cout << xd[f][c]<<"\t";
+        } 
+        cout << endl;
+     }
+    for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++) {
+            resultado[f][c] = apt[f][c] + xd[f][c];
+        }
+    }
+    cout << "el resultado es: " << endl;
+    for (int f = 0; f < 2; f++) {
+        for (int c = 0; c < 3; c++) {
+           
+            cout << resultado[f][c] << "\t";
+        }
+        cout << endl;
+    }
+    
+}
+*/
+/*
+#include <iostream>
+
+using namespace std;
+
+void jacobo(int manuel[10]){
+    int positivo =0;
+    int negativo=0;
+    int ceros=0;
+    for (int f=0;f<10;f++){
+            if (manuel[f] > 0){
+                positivo++;
+            }else if(manuel[f] < 0){
+                negativo++;
+            }else{
+                ceros++;
+            }
+            
+        }
+        
+        
+    cout << "Cantidad de números positivos: " << positivo << endl;
+    cout << "Cantidad de números negativos: " << negativo << endl;
+    cout << "Cantidad de ceros: "<< ceros << endl;
+    }
+
+
+   
+int main() {
+     int manuel[10];
+     
+      cout<<"ingrese los numeros: "<<endl;
+     for(int f=0;f<10;f++){
+        cout << "Número " << f + 1 << ": ";
+        cin>>manuel[f];
+        
+     }
+     jacobo(manuel);
+    
+
+    
+    return 0;
+    
+    
+}
+*/
